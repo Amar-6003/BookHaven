@@ -62,9 +62,15 @@ const Home = ({ search, setSearch, currentPageNo, setCurrentPageNo }) => {
             </div>
           ) : (
             <div className="flex flex-col md:flex-row flex-wrap justify-around gap-4 pt-8 min-h-screen">
-              {currentBooks.map((book) => (
-                <BookCard key={book.id} book={book} />
-              ))}
+              {currentBooks.length > 0 ? (
+                currentBooks.map((book) => (
+                  <BookCard key={book.id} book={book} />
+                ))
+              ) : (
+                <p className="text-gray-500 text-center text-2xl">
+                  No matching books found.😔
+                </p>
+              )}
             </div>
           )}
 

@@ -67,7 +67,7 @@ All book data is fetched from the JSON placeholder API: https://my-json-server.t
 
 Clone repo:
 
-git clone https://github.com/your-username/book-explorer.git
-cd book-explorer
-npm install
-npm run dev
+- git clone https://github.com/Amar-6003/BookHaven.git
+- cd BookHaven
+- npm install
+- npm run dev
