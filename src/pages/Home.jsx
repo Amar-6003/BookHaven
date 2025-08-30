@@ -67,7 +67,7 @@ const Home = ({ search, setSearch, currentPageNo, setCurrentPageNo }) => {
                   <BookCard key={book.id} book={book} />
                 ))
               ) : (
-                <p className="text-gray-500 text-center text-2xl">
+                <p className="text-gray-500 text-center text-2xl md:pt-24">
                   No matching books found.😔
                 </p>
               )}

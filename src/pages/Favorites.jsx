@@ -20,8 +20,8 @@ const Favorites = () => {
 
   if (favorites.length === 0)
     return (
-      <p className="text-center mt-20 text-lg font-semibold">
-        No favorite books added yet.
+      <p className="text-center text-gray-500 pt-36 text-2xl font-semibold min-h-screen">
+        No favorite books added yet.😔
       </p>
     );
 
